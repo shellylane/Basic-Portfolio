@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+
+}
+
+.mainheader {
+    width: 100vw;
+    background-color: #ffffff;
+    border-color:#cccccc;
+    height:50px;
+    border:1px solid #cccccc;
+    margin:0;
+    margin-bottom: 20px;
+    position:fixed;
+    top:0;
+
+}
+
+.container {
+    width:960px;
+    margin: auto;
+}
+/* Stylize H1 */
+
+h1 {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:200px;
+    float:left;
+    text-align:center;
+    margin:0 auto;
+    height: 50px;
+
+
+
+}
+
+
+/* Add A White Background to Top Navigation Bar */
+.topnav {
+    background-color:#ffffff;
+    font-family: Arial, "helvetica Neau", Helvetica, sans-serif;
+    width:960px;
+
+}
+
+/* Style the links inside the Navigation Bar */
+
+.topnav a {
+    float:right;
+    font-family: Arial, "helvetica Neau", Helvetica, sans-serif;
+    text-align:center;
+    color:#777777;
+    font-size:17px;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color:black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.ative {
+    color:#4aaaa5
+}
+
+.maincontent {
+     width:960px;
+     font-family:Arial, "Helvetica Neau", Helvetica, Sans-serif;
+     background-color:#ffffff;
+     border:2px;
+     border-color:#dddddd;
+     border-style:solid;
+     padding:20px;
+     color:#777777;
+     margin: auto;
+     margin-top: 100px;
+     
+}
+
+.aboutme {
+    clear:both;
+    color:#4aaaa5;
+    border-bottom: 1.5px solid #cccccc;
+    background-color: white
+}
+
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#666666;
+    border-top:8px; 
+    border-top-style:solid;
+    border-top-color:#4aaaa5;
+}
